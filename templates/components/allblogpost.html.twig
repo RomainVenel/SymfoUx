@@ -1,0 +1,3 @@
+{% for blogpost in this.allBlogPost %}
+    {{ component('blogpost', {'id': blogpost.id}) }}
+{% endfor %}
